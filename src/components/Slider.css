@@ -1,0 +1,55 @@
+.slider{
+    height: 600px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.speaker{
+    height:100%;
+}
+.description{
+    padding: 0 150px 20px 100px;
+}
+.description>h2{
+    font-weight: 800;
+}
+.slider>img{
+    margin: 0 80px 0 40px;
+}
+.slider>.description>button{
+    border-radius: 20em;
+    padding: 15px;
+    margin: 5px;
+}
+h5{
+    margin: 0 !important;
+}
+button.btn.ajouter-annonce{
+    background-color: #8ee4af;
+    border: 2px solid #8ee4af;
+    color:#05386B;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px
+}
+button.btn.ajouter-annonce:hover{
+    border: 2px solid #379683;
+    background-color: rgb(0,0,0,0);
+    color:#379683;
+}
+
+button.btn.voir-annonce{
+    border: 2px solid #05386B;
+    color: #05386B;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0 0 0 10px;
+}
+button.btn.voir-annonce:hover{
+    background-color: #05386B;
+    color:white;
+}
+a, Link{
+    text-decoration: none;
+  }

@@ -1,0 +1,16 @@
+*{
+    color: #05386b;
+}
+button.btn.connexion{
+    margin: 0 10px 0 0;
+    background-color: #5cdb95;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid #5cdb95;
+}
+button.btn.connexion:hover{
+    color: #5cdb95;
+    background-color: rgb(0, 0, 0,0);
+    border: 2px solid #5cdb95;
+    border-radius: 20px;
+}

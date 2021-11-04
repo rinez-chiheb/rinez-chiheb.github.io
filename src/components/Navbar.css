@@ -1,0 +1,45 @@
+*{
+    color: #05386b;
+    font-family: 'Poppins', sans-serif;
+}
+.pdp{
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 0 10px 0 10px;
+}
+.profil:hover{
+    background-color: rgb(0, 0, 0,0.1);
+    border-radius: 20px;
+    transition: background 0.3s 0s ease-out;
+    cursor: pointer;
+}
+button.btn.ajoutannonce{
+    margin: 0 10px 0 0;
+    background-color: #5cdb95;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid #5cdb95;
+    color: #05386b;
+}
+button.btn.ajoutannonce:hover{
+    color: #5cdb95;
+    background-color: rgb(0, 0, 0,0);
+    border: 2px solid #5cdb95;
+    border-radius: 20px;
+}
+
+svg:hover{
+    color: #5cdb95;
+}
+.navbar{
+    background-color: #eee;
+}
+p{
+    margin:0 !important;
+}
+svg{
+    margin: 0 7px 0 0;
+}
+.profil{
+    margin: 0 10px 0 0;
+}
